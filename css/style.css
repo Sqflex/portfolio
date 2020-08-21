@@ -137,6 +137,58 @@ body{
 
     color: #FFFFFF;
 }
+/* projects */
+.projects{
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 95.44%);
+}
+.projects-slide{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.project-text{
+    flex-basis: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-title{
+    flex-basis: 100%;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0;
+    margin-bottom: 41px;
+}
+.project-icon{
+    margin-right: 16px;
+}
+.project-time{
+    margin-bottom: 44px;
+}
+.project-time, .project-cost {
+    flex-basis: 35%;
+}
+.project-time, .project-cost, .project-feedback{
+    display: flex;
+    align-items: flex-start;
+}
+.project-subtitle{
+    margin: 0;
+    margin-bottom: 7px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+}
+.project-paragraph{
+    margin: 0;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+.project-cost{
+    margin-left:30px;
+}
 /* contacts */
 .form-title{
     font-weight: bold;
@@ -239,4 +291,15 @@ body{
     margin-top: 72px;
 
     color: #a5a5a5;
+}
+
+.project-bullet{
+    width: 10px;
+    height: 10px;
+    border: 2px solid #FFBB01;
+    border-radius: 2px;
+    display: inline-block;
+}
+.project-bullet-active{
+    background-color: #FFBB01;
 }

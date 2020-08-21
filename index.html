@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animate.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="js/swiper-bundle.min.js">
 </head>
 <body>
    <header class="hero">
@@ -78,6 +80,82 @@
             <!-- /.container -->
         </section>
    </main>
+   <section class="section projects">
+       <div class="container">
+            <h2 class="section-title">Последние проекты</h2>
+
+            <div class="swiper-container project-slider">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide projects-slide">
+                        <img src="assets/img/project-img/project-img.svg" alt="project" class="project-img">
+                    <div class="project-text">
+                        <h3 class="project-title">Сайт строительной фирмы</h3>
+                        <div class="project-time">
+                            <img src="assets/img/project-img/time-icon.svg" alt="time-icon" class="project-icon">
+                            <div class="project-description">
+                                <h4 class="project-subtitle">Сроки</h4>
+                                <p class="project-paragraph">4 рабочих дня</p>
+                            </div>
+                        </div>
+                        <div class="project-cost">
+                            <img src="assets/img/project-img/Group.png" alt="стоимость" class="project-icon">
+                            <div class="project-description">
+                                <h4 class="project-subtitle">Цена</h4>
+                                <p class="project-paragraph">14 тысяч рублей</p>
+                            </div>
+                        </div>
+                        <div class="project-feedback">
+                            <img src="assets/img/project-img/feedback-icon.svg" alt="time-icon" class="project-icon">
+                            <div class="project-description">
+                                <h4 class="project-subtitle">Отзыв</h4>
+                                <p class="project-paragraph">Мне понравилось работать с Артемом, потому что он все время был на связи и предлагал свои решения, когда мы заходили в тупик с дизайном. 
+                                    Мне нужны были закрывающие документы для бухгалтерии, 
+                                    и Артем — тот редкий фрилансер, у которого с документами все в порядке</p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="swiper-slide projects-slide">
+                        <img src="assets/img/project-img/project-img.svg" alt="project" class="project-img">
+                    <div class="project-text">
+                        <h3 class="project-title">Сайт строительной фирмы</h3>
+                        <div class="project-time">
+                            <img src="assets/img/project-img/time-icon.svg" alt="time-icon" class="project-icon">
+                            <div class="project-description">
+                                <h4 class="project-subtitle">Сроки</h4>
+                                <p class="project-paragraph">4 рабочих дня</p>
+                            </div>
+                        </div>
+                        <div class="project-cost">
+                            <img src="assets/img/project-img/Group.png" alt="стоимость" class="project-icon">
+                            <div class="project-description">
+                                <h4 class="project-subtitle">Цена</h4>
+                                <p class="project-paragraph">14 тысяч рублей</p>
+                            </div>
+                        </div>
+                        <div class="project-feedback">
+                            <img src="assets/img/project-img/feedback-icon.svg" alt="time-icon" class="project-icon">
+                            <div class="project-description">
+                                <h4 class="project-subtitle">Отзыв</h4>
+                                <p class="project-paragraph">Мне понравилось работать с Артемом, потому что он все время был на связи и предлагал свои решения, когда мы заходили в тупик с дизайном. 
+                                    Мне нужны были закрывающие документы для бухгалтерии, 
+                                    и Артем — тот редкий фрилансер, у которого с документами все в порядке</p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="swiper-slide">Slide 3</div>
+                    ...
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+            <!-- /.project-slider -->
+       </div>
+       <!-- /.container -->
+   </section>
    <footer class="section">
         <div class="container">
             <h2 class="section-title wow animate__fadeInRight">Свяжитесь со мной</h2>
@@ -117,6 +195,7 @@
             <!-- /.contacts-block -->
         </div>
    </footer>
+   <script type="text/javascript" src="js/swiper-bundle.min.js"></script>
    <script type="text/javascript" src="js/wow.min.js"></script>
    <script type="text/javascript" src="js/main.js"></script>
 
