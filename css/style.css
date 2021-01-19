@@ -12,6 +12,15 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
 .container{
     width: 90%;
     max-width: 945px;
@@ -44,8 +53,16 @@ body{
     align-items: center;
     margin-bottom: 105px;
 }
+.logo{
+    width: 206px;
+    height: 56px;
+}
 .social-link{
     margin-left: 20px;
+}
+.social-link::nth-child(1).img{
+    width: 18px;
+    height: 17px;
 }
 
 .social-link:first-child{
@@ -166,6 +183,8 @@ body{
 }
 .project-icon{
     margin-right: 16px;
+    width: 30px;
+    height: 32px;
 }
 .project-time{
     margin-bottom: 44px;
@@ -194,61 +213,6 @@ body{
     margin-left:30px;
 }
 /* contacts */
-.form-title{
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 28px;
-    margin: 0;
-    margin-bottom: 29px;
-    /* or 156% */
-
-    text-align: center;
-
-    color: #000000;
-}
-.contacts-form{
-    background: #FFFFFF;
-    box-shadow: -5px 5px 0px #FFC41D;
-    border-radius: 5px;
-    max-width: 380px;
-    padding-top: 40px;
-    padding-left: 48px;
-    padding-right: 48px;
-    padding-bottom: 49px;
-}
-.input{
-    background: #F8F8F8;
-    border: none;
-    box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
-    border-radius: 5px;
-    padding: 18px 20px;
-    width: 100%;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 28px;
-    padding-left: 49px;
-    /* identical to box height, or 200% */
-
-    display: flex;
-    align-items: center;
-
-    color: #949494;
-}
-.input-name{
-    margin-bottom: 17px;
-    background-image: url('../assets/img/user-icon.svg');
-    background-repeat: no-repeat;
-    background-position: center left 20px;
-}
-.input-phone{
-    margin-bottom: 17px;
-    background-image: url('../assets/img/phone-icon.svg');
-    background-repeat: no-repeat;
-    background-position: center left 20px;
-}
-.phone-button{
-    width: 100%;
-}
 .contacts-block{
     display: flex;
     justify-content: space-between;
@@ -281,9 +245,6 @@ body{
     color: inherit;
     margin-right: 37px;
 }
-.contacts-text{
-    margin-left: 99px;
-}
 .contacts-link:hover{
     text-decoration: underline;
 }
@@ -293,18 +254,18 @@ body{
     line-height: 18px;
     text-decoration-line: underline;
     margin-top: 72px;
-
     color: #a5a5a5;
 }
 
-.project-bullet{
+.swiper-pagination-bullet{
+    position: relative;
     width: 10px;
-    height: 10px;
+    height: 30px;
     border: 2px solid #FFBB01;
     border-radius: 2px;
     display: inline-block;
 }
-.project-bullet-active{
+.swiper-pagination-bullet-active{
     background-color: #FFBB01;
 }
 /* responsive */
@@ -447,3 +408,4 @@ line-height: 21px;
         margin-bottom: 13px;
     }
 }
+
