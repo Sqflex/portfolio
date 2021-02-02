@@ -116,12 +116,12 @@ a{
 }
 
 .hero-avatar{
-    width: 389px;
-    height: 389px;
+    width: 359px;
+    height: 359px;
     border-radius: 50%;
-    background-image: url('../assets/img/Hhh5vqFKJUI.jpg');
+    background-image: url('../assets/img/myphoto/DxIO2cNYVpo.jpg');
     background-repeat: no-repeat;
-    background-position: center top -420px;
+    background-position: center -60px;
     border: 13px solid white;
 }
 /* features */
@@ -244,6 +244,7 @@ a{
     text-decoration: none;
     color: inherit;
     margin-right: 37px;
+    font-size: 16px;
 }
 .contacts-link:hover{
     text-decoration: underline;
@@ -274,7 +275,7 @@ a{
         width: 300px;
         height: 300px;
         border-width: 10px;
-        background-position: center top -450px;
+        background-position: center top -400px;
     }
 }
 @media (max-width: 836px ){
@@ -287,7 +288,7 @@ a{
         height: 300px;
         border-width: 10px;
         margin-bottom: 17px;
-        background-position: center top -450px;
+        background-position: center top -400px;
     }
     .hero-text{
         order: 1;
@@ -330,7 +331,7 @@ a{
         width: 113px;
         height: 113px;
         border-width: 7px;
-        background-position: center top;
+        background-position: center top -10px;
         background-size: 99.9%;
     }
     .hero-title{
